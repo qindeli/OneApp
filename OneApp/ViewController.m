@@ -33,6 +33,8 @@
     //urlType: url schemes + "://" + Identifier
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:@"TwoApp://com.qianfeng?username=%@&password=%@",username,password]]];
     
+    NSLog(@"xxx");
+    
 }
 
 - (void)viewDidLoad {
